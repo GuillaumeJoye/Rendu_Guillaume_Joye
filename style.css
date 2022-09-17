@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    background-color: white;
+    height: 150px;
+}
+.nom{
+    width: 300px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.titre{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    font-size: 60px;
+    font-family: 'Wallpoet', cursive;
+    position: absolute;
+    background: linear-gradient(
+            to right, #FFB74D, #E65100);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+
+
+    
+}
+
+.link{
+    background-color: #FB8C00;
+    font-size: 25px;
+}
+
+.lien{
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;    
+}
+.lien a{
+    text-decoration: none;
+    color: white;
+}
+
+.lien a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+footer{
+    background: linear-gradient(
+        to right, #FFB74D, #E65100);
+    height: 450px;
+}
+.foot{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.title{
+    font-size: 55px;
+    color: black;
+    font-family: 'Wallpoet', cursive;
+
+}
+.txt{
+    font-size: 25px;
+    font-family: 'Oxygen', sans-serif;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.discu{
+    margin-top: 35px;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.icon img{
+    height: 45px;
+    width: 45px;
+    opacity: 100%;
+    
+}
