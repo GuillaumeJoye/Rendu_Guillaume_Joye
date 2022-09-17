@@ -3,15 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     height: 100%;
     width: 100%;
 }
 
+
+/* Header */
 header{
     background-color: white;
     height: 150px;
 }
+
 .nom{
     width: 300px;
     height: 100px;
@@ -19,6 +23,7 @@ header{
     margin-right: auto;
     
 }
+
 .titre{
     background-color:white;
     display: flex;
@@ -33,14 +38,12 @@ header{
             to right, #FFB74D, #E65100);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
-
-
-    
 }
 
 .link{
     background-color: #FB8C00;
     font-size: 25px;
+
 }
 
 .lien{
@@ -51,6 +54,7 @@ header{
     text-align: center;
     font-family: 'Oxygen', sans-serif;    
 }
+
 .lien a{
     text-decoration: none;
     color: white;
@@ -62,12 +66,13 @@ header{
 }
 
 
-
+/* Footer */
 footer{
     background: linear-gradient(
         to right, #FFB74D, #E65100);
     height: 450px;
 }
+
 .foot{
     width: 40%;
     margin-left: auto;
@@ -78,12 +83,14 @@ footer{
     align-items: center;
     justify-content: space-evenly;
 }
+
 .title{
     font-size: 55px;
     color: black;
     font-family: 'Wallpoet', cursive;
 
 }
+
 .txt{
     font-size: 25px;
     font-family: 'Oxygen', sans-serif;
@@ -91,14 +98,17 @@ footer{
     font-weight: bold;
     text-align: center;
 }
+
 .discu{
     margin-top: 35px;
 }
+
 .icon{
     display: flex;
     justify-content: space-between;
     width: 70%;
 }
+
 .icon img{
     height: 45px;
     width: 45px;
