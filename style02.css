@@ -32,7 +32,7 @@ main{
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
-    font-size: 23px;
+    font-size: 20px;
 }
 
 .titre01{
@@ -44,7 +44,7 @@ main{
 /* Block02 */
 .block2{
     height: 700px;
-    width: 1700px;
+    width: 1500px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -52,12 +52,12 @@ main{
 }
 
 .block2 img{
-    height: 350px;
-    width: 750px;
+    height: 300px;
+    width: 650px;
 }
 
 .def02{
-    height: 300px;
+    height: 350px;
     width: 780px;
     text-align: center;
     font-family: 'Oxygen', sans-serif;
@@ -65,7 +65,7 @@ main{
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
-    font-size: 23px;
+    font-size: 20px;
 }
 
 .titre02{
